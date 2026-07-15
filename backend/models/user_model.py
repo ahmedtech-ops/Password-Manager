@@ -1,6 +1,6 @@
-from ..constants import  user_collection
+from constants import  user_collection
 from dataclasses import dataclass
-from ..db.db_init import database
+from db.db_init import database
 
 
 

@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import pymongo
-from ..constants import db_name
+from constants import db_name
 from pymongo import AsyncMongoClient
 import os
 import asyncio

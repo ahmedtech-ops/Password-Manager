@@ -1,7 +1,6 @@
-from ..constants import  password_collection
+from constants import  password_collection
 from dataclasses import dataclass
-from ..db.db_init import database
-import asyncio
+from db.db_init import database
 
 
 @dataclass
@@ -17,5 +16,5 @@ async def create_password_collection():
     except Exception as e:
         raise Exception(f"failed to create password collections {e}")
 
-asyncio.run(create_password_collection())
+
 
